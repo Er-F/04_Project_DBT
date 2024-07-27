@@ -1,5 +1,4 @@
-{{config(materialized='view') }}
+{{ config(materialized='view') }}
 
-select status, * from {{ ref('stg_sales') }} where status = 'Cancelled'
-
-
+select *
+from {{ ref('stg_sales') }} where status = 'Cancelled'

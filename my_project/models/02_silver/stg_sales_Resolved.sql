@@ -1,6 +1,3 @@
-{{config(materialized='view') }}
+{{ config(materialized='view') }}
 
-select * from {{ ref('stg_sales') }} where CITY = 'Resolved'
-
-
-
+select * from {{ ref('stg_sales') }} where status = 'Resolved'

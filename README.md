@@ -6,4 +6,7 @@
 - PostgreSQL database (Modify the profiles.yml file to match your local database)
 - Environment with dbt-core installed 
 
+## Content Overview 
+![alt text](/images/image.png)
+
 
