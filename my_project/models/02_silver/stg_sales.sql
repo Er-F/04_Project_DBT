@@ -1,4 +1,4 @@
 {{ config(materialized='view') }}
 
-select  * 
+select LOWER(*) 
 from {{ref('raw_sales')}} 
