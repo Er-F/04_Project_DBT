@@ -1,5 +1,5 @@
 {{ config(materialized='view') }}
 
 select *
-from {{ ref('stg_sales') }}
+from {{ ref('02_stg_sales') }}
 where status = 'Shipped'

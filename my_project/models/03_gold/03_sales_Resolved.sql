@@ -1,3 +1,3 @@
 {{ config(materialized='table') }}
 
-select * from {{ ref('stg_sales_Resolved') }} 
+select * from {{ ref('02_stg_sales_Resolved') }}

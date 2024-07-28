@@ -1,4 +1,4 @@
 {{ config(materialized='table') }}
 
 select *
-from {{ ref('stg_sales_Cancelled') }} 
+from {{ ref('02_stg_sales_Cancelled') }}

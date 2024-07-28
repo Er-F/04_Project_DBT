@@ -5,6 +5,9 @@
 ## Prerequisites
 - PostgreSQL database (Modify the profiles.yml file to match your local database)
 - Environment with dbt-core installed 
+- DBT Power User Extention to visulize model linage 
+- 
 
-## Content Overview 
+## Model Overview 
+- 
 ![alt text](/images/image.png)

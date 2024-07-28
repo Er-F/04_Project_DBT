@@ -26,4 +26,4 @@ SELECT
   "PHONE" AS phone,
   "ADDRESSLINE1" AS addressline1,
   "ADDRESSLINE2" AS addressline2
-FROM {{ ref('raw_sales') }}
+FROM {{ ref('01_raw_sales') }}
