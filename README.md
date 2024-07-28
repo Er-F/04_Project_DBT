@@ -8,5 +8,3 @@
 
 ## Content Overview 
 ![alt text](/images/image.png)
-
-

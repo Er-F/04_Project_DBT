@@ -1,11 +1,11 @@
-Welcome to your new dbt project!
+### DBT - Data Warehouse Project
 
-### Using the starter project
 
-Try running the following commands:
-- dbt run
-- dbt test
 
+## DBT Model Structure - Overview 
+- The Medallion Architecture (Bronze, Silver, Gold folder structure) is used in this project.
+
+![alt text](/images/models_structure.png)
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)

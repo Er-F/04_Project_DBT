@@ -1,11 +1,31 @@
 my_project:
-  target: dev
+  target: DEV
   outputs:
-    dev:
+    DEV:
       type: postgres
       host: localhost
       user: postgres
       password: FpbBCn3okb2ZCLkzsFtemHqg9
       port: 5432
-      dbname: db_dbt
+      dbname: db_dbt_dev
       schema: dbt_schema
+
+
+      QA:
+        type: postgres
+        host: localhost
+        user: postgres
+        password: FpbBCn3okb2ZCLkzsFtemHqg9
+        port: 5432
+        dbname: db_dbt_QA
+        schema: dbt_schema
+
+
+      PROD:
+        type: postgres
+        host: localhost
+        user: postgres
+        password: FpbBCn3okb2ZCLkzsFtemHqg9
+        port: 5432
+        dbname: db_dbt_PROD
+        schema: dbt_schema

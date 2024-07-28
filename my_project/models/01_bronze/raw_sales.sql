@@ -1,3 +1,3 @@
 {{ config(materialized='view') }}
 
-select * from {{ ref('s1_raw_sales') }}
+select * from {{ ref('seed1_raw_sales') }}
