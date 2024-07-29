@@ -12,25 +12,35 @@ Bronze is less valuable than silver, which is again less valuable than gold and 
 - DBT Power User Extention to visulize model linage 
 - PostgreSQL database (Modify the profiles.yml file to match your local database)
 
-´´´
-  ## profiles.yml example
+## Modify profiles.yml to point to your database 
+```bash
     DEV:
-      type: postgres
-      host: localhost
-      user: postgres
-      password: your password....
-      port: 5432
-      dbname: your_db...
-      schema: your_schema...
-´´´
+        type: postgres
+        host: localhost
+        user: postgres
+        password: your password....
+        port: 5432
+        dbname: your_db...
+        schema: your_schema...
+```
 
-## Linage Example  
+## Visulizing Linage (Using VSCode Extension)
+- Navigating between different nodes/models is extremely effective with the DBT Power User Extention in VSCode. Highly recommend!  
+
 ![alt text](/images/image.png)
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Er-F/04_Project_DBT.git
 
+2. Create a new virtual python enviornment 
 
+3. Pip install ... (I am including the requirtments.txt file, but I would recommend that you manually install the required packages as I have inclueded more than neccecary for this project.)
+
+4. Set up your connection to your Database 
+
+5. run the project:
+   ```bash
+   dbt seed
+   dbt run 

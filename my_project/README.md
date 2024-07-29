@@ -3,7 +3,6 @@
 - The seeds files are then loaded directly to the silver layer (as they are initially conisdered to be bronze) 
 - There are few transformations steps in the silver layer in this project, but in a full-scale data warehouse there would be a considerable amount 
 
-
 # Running the project 
 - Seeds 
 ´´´
@@ -11,8 +10,7 @@ run seeds
 run dbt 
 ´´´
 
-## Models - Overview 
-- The Medallion Architecture (Bronze, Silver, Gold folder structure) is used in this project.
+## An overview of models 
   ```
     ├───01_bronze
     │       01_raw_sales.sql
