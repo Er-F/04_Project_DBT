@@ -1,8 +1,17 @@
 ### DBT - Data Warehouse Project
+- All source files are initilized under the /seeds folder.
+- The seeds files are then loaded directly to the silver layer (as they are initially conisdered to be bronze) 
+- There are few transformations steps in the silver layer in this project, but in a full-scale data warehouse there would be a considerable amount 
 
 
+# Running the project 
+- Seeds 
+´´´
+run seeds 
+run dbt 
+´´´
 
-## DBT Model Structure - Overview 
+## Models - Overview 
 - The Medallion Architecture (Bronze, Silver, Gold folder structure) is used in this project.
   ```
     ├───01_bronze
