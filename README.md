@@ -4,8 +4,8 @@ The naming of the layers in the medallion model can probably be considered equiv
 Bronze is less valuable than silver, which is again less valuable than gold and so the ordering is natural.
 
 ## Data Sources
-- 1. Data Source (Kaggle):  https://www.kaggle.com/datasets/kyanyoga/sample-sales-data  
-- 2. AdventureWorks sample databases (from Microsoft): https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
+1. Data Source (Kaggle):  https://www.kaggle.com/datasets/kyanyoga/sample-sales-data  
+2. AdventureWorks sample databases (from Microsoft): https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
 
 ## Prerequisites
 - Environment with dbt-core installed 

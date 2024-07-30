@@ -1,4 +1,4 @@
 {{ config(materialized='table') }}
 -- Transform Uppercase columns to lowercase. (best practise)
-SELECT 
+SELECT *
 FROM {{ ref('02_stg_sales') }}
